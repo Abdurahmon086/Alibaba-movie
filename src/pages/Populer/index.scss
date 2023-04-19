@@ -1,0 +1,13 @@
+.populer {
+    margin-top: 50px;
+
+    &__list {
+        display: flex;
+         gap: 24px 37px;
+        flex-wrap: wrap;
+    }
+
+    &__link {
+        color: #fff;
+    }
+}

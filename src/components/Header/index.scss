@@ -1,0 +1,51 @@
+header {
+    padding: 25px;
+
+    .head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__logo {
+            font-size: 32px;
+            color: #fff;
+            font-weight: 700;
+        }
+
+        &__list {
+            display: flex;
+            column-gap: 25px;
+
+            .active {
+                color: bisque;
+            }
+        }
+
+        &__link {
+            font-size: 20px;
+            font-weight: 500;
+            color: #ffffff;
+        }
+
+        &__form {
+
+            .form {
+
+                &__input {
+                    background: inherit;
+                    width: 200px;
+                    padding: 10px 5px;
+                    border: 2px solid #fff;
+                    border-radius: 5px;
+                    outline: none;
+                    color: #fff;
+
+                    &::placeholder {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+    }
+}

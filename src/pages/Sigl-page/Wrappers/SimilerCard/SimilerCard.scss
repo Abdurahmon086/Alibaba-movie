@@ -1,0 +1,18 @@
+.similer__item {
+    width: 200px;
+    margin-bottom: 10px;
+
+    .card {
+        &__img{
+            border-radius: 15px;
+        }
+
+        &__title {
+            color: #fff;
+            text-align: center;
+        }
+        &__inner {
+            padding: 10px 5px;  
+        }
+    }
+}

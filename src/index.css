@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  background: #0e0c2b;
+  font-family: sans-serif;
+  font-style: normal;
+  color: #fff;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

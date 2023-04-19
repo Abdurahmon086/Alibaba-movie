@@ -1,0 +1,33 @@
+.populer__item {
+    border: 1px solid thistle;
+    border-radius: 10px;
+    width: 210px;
+    height: 400px;
+    box-sizing: content-box;
+    box-shadow: rgba(167, 250, 13, 0.25) 0px 13px 27px -5px, rgba(232, 236, 6, 0.3) 0px 8px 16px -8px;
+
+    &:hover {
+        transition: 1s all;
+        transform: scale(1.07, 1.05);
+    }
+
+    .card {
+
+        &__img {
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            width: 210px;
+            height: 300px;
+        }
+
+        &__inner {
+            padding: 10px 12px;
+        }
+
+        &__time {
+            display: block;
+            margin-top: 15px;
+            opacity: 0.5;
+        }
+    }
+}

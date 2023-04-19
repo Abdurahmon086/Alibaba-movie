@@ -1,0 +1,13 @@
+.upcoming {
+
+    &__list {
+        margin-top: 50px;
+        display: flex;
+        gap: 20px 30px;
+        flex-wrap: wrap;
+    }
+
+    &__link {
+        color: #fff;
+    }
+}
